@@ -11,8 +11,8 @@ namespace ejercico4
             num1 = int.Parse(Console.ReadLine());
             Console.WriteLine("introdusca su edad");
             num2 = int.Parse(Console.ReadLine());
-            Console.WriteLine("La suma de los numeros es: ", + (num1 + num2));
-            Console.WriteLine("La resta de los numeros es: ", +(num1 - num2));
+            Console.WriteLine("La suma de los numeros es: {0}", + (num1 + num2));
+            Console.WriteLine("La resta de los numeros es: {0}", +(num1 - num2));
         }
     }
 }

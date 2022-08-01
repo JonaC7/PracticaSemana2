@@ -9,9 +9,9 @@ namespace ejercico4
         {
             Console.WriteLine("Introdusca su nombre: ");
             string name = Console.ReadLine();
-            Console.WriteLine("introdusca su edad");
+            Console.WriteLine("Introdusca su edad");
             int edad = int.Parse(Console.ReadLine());
-            Console.WriteLine("su nombre es: {0} y tiene {1} años de edad", name, edad);
+            Console.WriteLine("Su nombre es: {0} y tiene {1} años de edad", name, edad);
         }
     }
 }
